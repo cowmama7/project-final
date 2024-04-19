@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The TrainDex</title>
+    <link rel="stylesheet" href="./tracker.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <element id="headerDiv0">
+        <element id="headerDiv1">
+            <div id="headerDiv2">
+                <img id="headImg" src="./images/headerPhoto1.png" width="100;">
+                <p>TrainDex Database</p>
+            </div>
+            <h1>The TrainDex</h1>
+        </element>
+    </element>
+
+
+    <div class="topnav">
+        <div id="hamburgerMenu">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="./images/hamburgerIcon.png" id="bar" class="fa fa-bars" width="20px"></i>
+            </a>
+            <div id="myLinks">
+                <a href='./index.html'>View TrainDex</a>
+
+                <a href='./upload.html'>Upload to TrainDex</a>
+
+                <a href="./totd.html">Train of the Day</a>
+
+                <a href="./search.html">Search for a Train</a>
+            </div>
+        </div>
+        <div class="flier"><img src="./images/trainClipart.png"></div>
+    </div>
+    <h2 style="text-align: center;">Track Your Train</h2>
+
+    <button type="button" class="collapsible">United States & Canada</button>
+    <div class="content">
+        <embed src="http://asm.transitdocs.com" style="width:90%; height:600px">
+    </div>
+    <button type="button" class="collapsible">Europe</button>
+    <div class="content">
+        <embed
+        src="https://mobility.portal.geops.io/world.geops.transit?layers=paerke,strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=1342494.29&y=5765404.06&z=5.73&baselayer=world.geops.travic"
+        style="width:90%; height:600px">
+    </div>
+    <button type="button" class="collapsible">China</button>
+    <div class="content">
+        <embed src="http://cnrail.geogv.org/enus/" style="width:90%; height:600px">
+    </div>
+    <button type="button" class="collapsible">Japan</button>
+    <div class="content">
+        <embed src="http://www.demap.info/tetsudonow/" style="width:90%; height:600px">
+    </div>
+    <h4>More Locations Coming Soon</h4>
+    
+
+        <script src="tracker.js"></script>
+    </body>

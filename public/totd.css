@@ -1,0 +1,139 @@
+#headerDiv0 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    a {
+        padding-top: 40px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+}
+
+#firstLayer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#headerDiv1 {
+    display: flex;
+
+    h1 {
+        padding: 20px;
+    }
+}
+
+
+#headerDiv2 {
+    display: block;
+}
+
+#headerNavBar a {
+    text-decoration: none;
+}
+
+#trainOfTheDayButton {
+    background-color: darkgrey;
+}
+
+
+
+#viewListing {
+    text-align: center;
+    display: block;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#firstLayer {
+    padding: 25px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+#mainContent {
+    display: block;
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#imgBar {
+    display: flex;
+    flex: 1;
+
+    img {
+        padding: 2.5%
+    }
+}
+
+@media (min-width:900px) {
+    #firstLayer {
+        display: flex;
+        flex: 1;
+    }
+   
+}
+
+#learnMoreButton {
+    display: block;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#learnMoreLink {
+    text-decoration: none;
+}
+
+#headerNavBar {
+    display:none;
+}
+#hamburgerMenu {
+    display:block;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float:left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  .flier {
+	pointer-events: none;
+}
+
+.flier > * {
+        animation: fly 20s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-200%) rotateZ(0);
+	position:relative;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+@keyframes fly {
+    0% {
+        transform:translateX(-100%);
+    }
+    100% {
+        transform:translateX(1000%);
+    }
+}

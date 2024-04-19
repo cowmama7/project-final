@@ -1,0 +1,128 @@
+#headerDiv0 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+
+    a {
+        padding-top: 40px;
+        padding-right: 10px;
+
+    }
+}
+
+#headerDiv1 {
+    display: flex;
+}
+
+h1 {
+    padding: 20px;
+
+}
+
+#headerDiv2 {
+    display: block;
+}
+
+#headerNavBar a {
+
+    text-decoration: none;
+}
+
+#uploadToTrainDexButton {
+    background-color: darkgrey;
+}
+
+#surveyForm {
+    background-image: linear-gradient(lightgray,aqua);
+    background-color: lightgray;
+    padding:20px;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+#fileInput {
+    padding-left: 4%;
+}
+
+#headerNavBar {
+    display: none;
+}
+
+#hamburgerMenu {
+    display: block;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#contactInputs {
+    display:flex;
+    flex:1;
+}
+.contactInputLayer {
+    padding:20px;
+    width:50%;
+    height:100%;
+    
+}
+#contactLayer1 {
+    border-right-style:solid;
+}
+#contactDiv {
+    display:flex;
+}
+
+
+.flier {
+	pointer-events: none;
+}
+
+.flier > * {
+        animation: fly 20s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-200%) rotateZ(0);
+	position:relative;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+.hidden {
+    display:none;
+}
+
+@keyframes fly {
+    0% {
+        transform:translateX(-100%);
+    }
+    100% {
+        transform:translateX(1000%);
+    }
+}
+
+#contactBox {
+    padding:20px;
+    background-color:lightGray;
+    border-radius:25px;
+    text-align:center;
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "Name": "Avelia Liberty",
+        "Company": "Alstom",
+        "Image": "aveliaLiberty.png",
+        "Build Date": "2017-Present",
+        "Upload Date": "2/7/2024",
+        "Service Locations": ["Washington DC", "Baltimore MD", "Wilmington DE", "Philadelphia PA", "Metropark NJ", "Newark NJ", "New York NY", "Stamford CT", "New Haven CT", "Providence RI", "Route 128 MA", "Boston MA"],
+        "Notes": "Replacement for the Acela Express Trainsets running between Boston and Washington DC, with a top speed of 160 mph in service, and 220mph top speed. The release of these trainsets were plagued with many issues, leading to their delay in entering service, from 2022 to present."
+    },
+    {
+        "id": "2",
+        "Name": "Acela Express (gen 1)",
+        "Company": "Bombardier, Alstom",
+        "Image": "acelaExpress.jpg",
+        "Build Date": "1998-2001",
+        "Upload Date": "2/7/2024",
+        "Service Locations": ["Washington DC", "Baltimore MD", "Wilmington DE", "Philadelphia PA", "Metropark NJ", "Newark NJ", "New York NY", "Stamford CT", "New Haven CT", "Providence RI", "Route 128 MA", "Boston MA"],
+        "Notes": "First high speed trains to enter revenue service in the united states, entered revenue service in 2000. 165mph top speed amd 150mph max service speed. These trainsets are likely to be retired soon or repurposed following the release of the Avelia Liberty trains."
+    },
+    {
+        "id": "3",
+        "Name": "Charger",
+        "Company": "Siemens Mobility",
+        "Image": "charger.jpg",
+        "Build Date": "2016-Present",
+        "Upload Date": "2/7/2024",
+        "Service Locations":["Various Intercity Amtrak Routes", "Altamont Corridor", "Brightline Orlando-Miami", "SoCal Coaster","MARC","Metro North","Via Rail Canada"],
+        "Notes": "Built in 2016 and gradually entering service since then, the Siemens Chargers were built to replace the GE Genesis trains running on much of the network. These trains have a higher top speed of 125 mph, and are capable of diesel, or electric, or hybrid modes, and have been implemented in many of the routes that were previously served by GE Genesis locomotives."
+    },
+    {
+        "id": "4",
+        "Name": "GE Genesis",
+        "Company": "GE Transportation Systems",
+        "Image": "geGenesis.jpg",
+        "Build Date": "1992-2001",
+        "Upload Date": "2/7/2024",
+        "Service Locations":["Various Intercity Amtrak Routes","Metro-North Railroad", "Via Rail Canada"],
+        "Notes": "Released and entering revenue service in the 1990s and 2000s, 321 GE Genesis trains were produced for service across the entire country, as well as for use by Via Rail and Metro North. These trains operate with a top speed of 110mph, and run on diesel fuel."
+    },
+    {
+        "id": "5",
+        "Name": "Eurostar e320",
+        "Company": "Siemens",
+        "Image": "eurostare320.jpg",
+        "Build Date": "2011-2018",
+        "Upload Date": "2/7/2024",
+        "Service Locations":["London GB", "Paris FR","Brussels BG", "Amsterdam NL"],
+        "Notes": "Entering service in 2015, the e320s have been running consistent service along the british hs1 corridor and channel tunnel, connecting London with Paris, Brussels, Amsterdam, and several other destinations across Europe. With a top operating speed of 200mph, these are among the first high-speed rail trains to enter service in the UK"
+    },
+    {
+        "id": "6",
+        "Name": "British Rail Class 801",
+        "Company": "Hitachi Rail",
+        "Image": "brc801.jpg",
+        "Build Date": "2017-2020",
+        "Upload Date": "2/8/2024",
+        "Service Locations":["London", "Peterborough", "Doncaster","Leeds","York","Durham","Newcastle", "Edinburgh","Glasgow","Aberdeen","Inverness"],
+        "Notes": "Entering service in 2019, these cars run from London King's Criss to Aberdeen, with a top speed of 125 mph on the route. These trains operate under the London North Eastern Railway, with Azuma branding and livery"
+    },
+    {
+        "id": "7",
+        "Name": "Renfe Class 103",
+        "Company": "Siemens",
+        "Image": "renfeClass103.jpg",
+        "Build Date": "2001-2006",
+        "Upload Date": "2/8/2024",
+        "Service Locations":["Madrid","Zaragoza","Barcelona"],
+        "Notes": "Entering service in 2007, these trains have been used in service between Madrid and Barcelona, as well as between Madrid and Málaga. These trains are commissioned with a top speed of 217mph, but only reach 193mph in service"
+    },
+    {
+        "id": "8",
+        "Name": "Siemens S70",
+        "Company": "Siemens Mobility",
+        "Image": "siemensS70.jpg",
+        "Build Date": "2002-2017",
+        "Upload Date": "3/14/2024",
+        "Service Locations":["Atlanta", "Charlotte", "Houston","Minneapolis","Norfolk","Phoenix","Portland","Sacramento","Salt Lake City","San Diego","Santa Ana","Seattle"],
+        "Notes": "This series of Light Rail cars or Low-Floor Trams began construction in 2002 and entered service in 2004. These cars have been used all over the United States in various light rail systems such as Portland's MAX System and Charlotte's LYNX system, and have a top operational speed of 55mph."
+    }
+]

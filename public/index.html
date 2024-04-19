@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The TrainDex</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <element id="headerDiv0">
+        <element id="headerDiv1">
+            <div id="headerDiv2">
+                <img id="headImg" src="./images/headerPhoto1.png" width="100;">
+                <p>TrainDex Database</p>
+            </div>
+            <h1>The TrainDex</h1>
+        </element>
+      
+    </element>
+
+    <div class="topnav">
+        <div id="hamburgerMenu">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="./images/hamburgerIcon.png" id="bar" class="fa fa-bars" width="20px"></i>
+            </a>
+            <div id="myLinks">
+                <a href='./index.html'>View TrainDex</a>
+
+                <a href='./upload.html'>Upload to TrainDex</a>
+
+                <a href="./totd.html">Train of the Day</a>
+
+                <a href="./search.html">Search for a Train</a>
+
+                <a href="./tracker.html">Track Your Train</a>
+            </div>
+        </div>
+        <div class="flier"><img src="./images/trainClipart.png"></div>
+    </div>
+
+    <div id="container">
+
+    </div>
+
+
+
+    <div id="dialog" class="w3-modal">
+        <div class="w3-modal-content">
+          <div class="w3-container">
+            <span onclick="document.getElementById('dialog').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+              <section id="dialog-details">
+                
+                <form id="editForm" method="post">
+                    <div id="inputDiv">
+                        <input type="hidden" id="_id" name="_id">
+                        <input type="hidden" id="user_name" name="user_name">
+                        <input type="hidden" id="user_email" name="user_email">
+                        <input type="hidden" id="upload_date" name="upload_date">
+                        <h4>Train Name</h4>
+                        <input type="text" id="train_name" placeholder="Please Enter" name="train_name" required />
+                        <h4>Train Company</h4>
+                        <input type="text" id="company" placeholder="Please Enter" name="company" required />
+                        <h4>Train Build Date (ex: 2009-2014)</h4>
+                        <input type="text" id="build_date" placeholder="Please Enter" name="build_date" required />
+                        <h4>Image of Train</h4>
+                        <div id="fileInput">
+                            <input type="file" name="img" id="img">
+                        </div>
+                        <p id="img-prev-section">
+                            <img id="img-prev">
+                        </p>
+                        <br>
+                        <h4>Locations Served (seperate with commas)</h4>
+                        <textarea id="service_locations" cols="50" rows="10" placeholder="Input names here" name="service_locations"
+                            required></textarea>
+                        <br>
+                        <h4>Extra Info/Notes</h4>
+                        <textarea id="notes" cols="50" rows="10" placeholder="Input text here"
+                            name="notes"></textarea>
+                        <br>
+                        <button id="submitEntryButton" type="submit">Submit Entry</button>
+                        <br>
+                    </div>
+                </form>
+
+                <section id="train-details" class="hidden">
+
+                </section>
+            </section>
+          </div>
+        </div>
+      </div>   
+    </div>
+    </body>

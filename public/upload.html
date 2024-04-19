@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The TrainDex</title>
+    <link rel="stylesheet" href="./upload.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+</head>
+
+<body>
+    <element id="headerDiv0">
+        <element id="headerDiv1">
+            <div id="headerDiv2">
+                <img id="headImg" src="./images/headerPhoto1.png" width="100;">
+                <p>TrainDex Database</p>
+            </div>
+            <h1>The TrainDex</h1>
+        </element>
+
+    </element>
+
+
+    <div class="topnav">
+        <div id="hamburgerMenu">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="./images/hamburgerIcon.png" id="bar" class="fa fa-bars" width="20px"></i>
+            </a>
+            <div id="myLinks">
+                <a href='./index.html'>View TrainDex</a>
+
+                <a href='./upload.html'>Upload to TrainDex</a>
+
+                <a href="./totd.html">Train of the Day</a>
+
+                <a href="./search.html">Search for a Train</a>
+
+                <a href="./tracker.html">Track Your Train</a>
+            </div>
+        </div>
+        <div class="flier"><img src="./images/trainClipart.png"></div>
+    </div>
+
+    <form id="surveyForm" method="post">
+        <div id="inputDiv">
+            <h2>Thank You For Contributing to the TrainDex!</h2>
+            <h4>Your Name:</h4>
+            <input type="text" id="user_name" placeholder="Please Enter" name="user_name" required />
+            <h4>Your Email Address:</h4>
+            <input type="text" id="user_email" placeholder="Please Enter" name="user_email" required />
+            <h4>Train Name</h4>
+            <input type="text" id="train_name" placeholder="Please Enter" name="train_name" required />
+            <h4>Train Company</h4>
+            <input type="text" id="company" placeholder="Please Enter" name="company" required />
+            <h4>Train Build Date (ex: 2009-2014)</h4>
+            <input type="text" id="build_date" placeholder="Please Enter" name="build_date" required />
+            <h4>Image of Train</h4>
+            <div id="fileInput">
+                <input type="file" name="img" id="img">
+            </div>
+            <br>
+            <h4>Locations Served (seperate with commas)</h4>
+            <textarea id="service_locations" cols="50" rows="10" placeholder="Input names here" name="service_locations"
+                required></textarea>
+            <br>
+            <h4>Extra Info/Notes</h4>
+            <textarea id="notes" cols="50" rows="10" placeholder="Input text here" name="notes"></textarea>
+            <br>
+            <button id="submitEntryButton" type="submit">Submit Entry</button>
+            <br>
+        </div>
+    </form>
+
+
+    <div id="contactBox">
+        <h3>Questions?</h3>
+        <a class="contactLink" id="contactLink" href="javascript:void(0);">Contact Us!</a>
+    </div>
+
+    <div class="w3-container">
+
+
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id01').style.display='none'"
+                        class="w3-button w3-display-topright">&times;</span>
+                    <h2 id="title">Contact Us!</h2>
+                    <div id="contactInputs">
+                        <div class="contactInputLayer" id="contactLayer1">
+                            <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+
+                                <input type="hidden" name="access_key" value="292dd9ce-7f83-4245-ae6d-a44addd56127">
+                                <h4>Name:</h4>
+                                <input type="text" name="name" placeholder="Please Enter" required>
+                                <br>
+                                <h4>Email:</h4>
+                                <input type="email" name="email" placeholder="Please Enter" required>
+                                <br>
+                                <h4>Message:</h4>
+                                <textarea name="message" placeholder="Please Enter" required></textarea>
+                                <br>
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                                <br>
+                                <button type="submit">Submit Form</button>
+
+                                <p id="result"></p>
+                            </form>
+                        </div>
+                        <div class="contactInputLayer">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1169.4512556451987!2d-81.02229317893163!3d34.00004218569733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad28b29a021%3A0xd06ad91421563304!2sCapstone%20House!5e0!3m2!1sen!2sus!4v1710704156392!5m2!1sen!2sus"
+                                width="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" height="350px"></iframe>
+                            <h6>Find us Here!</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="appendInfo">
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="contactMe.js"></script>
+</body>
+
+</html>
